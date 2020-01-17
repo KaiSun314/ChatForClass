@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 300;
+    background-color: #007bff!important;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #007bff!important;
+    height: 60px;
+}
+  
+header a {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+
+header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.headerRow {
+    width: 100%;
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 70px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.middle > * {
+    vertical-align: middle;
+}
+
+#backButton {
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    background: #f8f9fa!important;
+}
+
+.curr-room-num-users {
+    font-size: 14px;
+    color: #ABB2BF;
+    position: relative;
+}
+
+.message-form { 
+    margin: 0px; margin-bottom: 10px;
+}
+
+input { 
+    width: 100%; 
+    height: 34px; 
+    color: #ABB2BF; 
+    border: 1px solid #3B4048; 
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#messages li .user-image {
+    width: 50px;
+    display: inline-block;
+}
+
+#messages li .user-message {
+    margin-left: 10px;
+    color: #222;
+}
+
+#messages li .user-name-time span {
+    color: #ABB2BF;
+}
+
+#messages li { 
+    padding: 5px 10px; 
+    display: flex;
+    align-items: stretch;
+}
+
+#sendButton {
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    background: #ffffff;
+}
+
+.left {
+    width: auto;
+    overflow: hidden;
+    flex-grow: 100;
+    margin-right: 10px;
+}
+
+.right {
+    float: right;
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-brand {
+    display: inline-block;
+}
+
+.conversationMain {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+}
+
+.room-header { 
+    top: 0; 
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 0;
+    width: 100%;
+}
+
+.conversationMainBody {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 1;
+}
+
+.message-form {
+    bottom: 0;
+    margin-top: 5px;
+    padding-left: 20px; 
+    padding-right: 10px; 
+    width: 100%;
+}
+
+.side-bar {
+    background: #f8f9fa!important;
+    border-right: 10px;
+    border-color: #3B4048;
+}
+
+.loginContainer {
+    margin: 10% auto;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.fieldInput {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 40%;
+    border-radius: 3px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+
+.loginButton {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #007bff;
+    border-radius: 3px;
+    width: 40%;
+    font-size: 18px;
+}
+
+.homePageDescription {
+    height: calc(100vh - 60px);
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.descriptions {
+    font-style: italic;
+    padding-top: 20px
+}
+
+.launch {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 6px;
+}
+
+.addButton {
+    color: #FFFFFF!important;
+}
+
+.addConversationButton {
+    background-color: #007bff!important;
+    color: #FFFFFF!important;
+    width: 100%;
+}
+
+#expandableBtn {
+    border-radius: 0 !important;
+    padding: 0px;
+    flex: 1;
+    background-color: #f8f9fa;
+    text-align: left;
+}
+
+.conversationText {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#chat {
+    margin-bottom: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#branchBtn {
+    border-radius: 0 !important;
+    padding: 0px;
+    background-color: #f8f9fa;
+}
